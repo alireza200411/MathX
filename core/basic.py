@@ -25,10 +25,9 @@ class Basic:
                     'Error __Division by zero__: The base is zero and the power is negative!!!\nDo you want '
                     'to go out?[y/N] ')
                 if command == 'y':
-                    pass
+                    return 'Good bye!'
                 else:
-                    pass
-        else:
+                    choice = input('')
 
             return self.number ** num
 
@@ -72,8 +71,6 @@ class Basic:
         return self.number ** (1 // num)
 
 
-c1 = Basic(7)
-print(c1.root(0))
 
 
 
